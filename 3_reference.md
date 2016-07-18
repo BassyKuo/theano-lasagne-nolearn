@@ -1,3 +1,4 @@
 # 3.Reference
 
-[1] http://deeplearning.net/software/theano/library/config.html#config.device
+[theano_1]: http://deeplearning.net/software/theano/library/config.html#config.device
+
