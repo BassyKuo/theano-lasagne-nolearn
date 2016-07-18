@@ -19,16 +19,16 @@ sudo pip install -r https://raw.githubusercontent.com/dnouri/nolearn/master/requ
 sudo pip install nolearn==0.5b1
 ```
 
-預設是使用CPU，若要使用GPU，請在HOME底下新增.theanorc檔案:
+預設是使用CPU，若要使用GPU，請在HOME底下新增`.theanorc`檔案:
 ```
 [global]
 mode=FAST_RUN
 device=gpu
 floatX=float32
 ```
-要確認是否有設定成功，可執行check_gpu.py:
+要確認是否有設定成功，可執行`check_gpu.py`: [1] [theano_1]
 ```python
-# check_gpu.py
+# Filename: check_gpu.py
 from theano import function, config, shared, sandbox
 import theano.tensor as T
 import numpy
