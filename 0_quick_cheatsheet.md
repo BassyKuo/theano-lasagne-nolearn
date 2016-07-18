@@ -6,6 +6,7 @@
 # Easy installation on Ubuntu 14.04 server
 
 ### Requirements ###
+sudo apt-get update
 sudo apt-get install -y python-numpy
 if [ $? -eq 100 ]; then 
   sudo mv /var/cache/apt/archives/lock /var/cache/apt/archives/lock_bak
@@ -18,8 +19,7 @@ sudo apt-get install -y cython python-scipy python-dev python-pip python-nose g+
 sudo pip install -r https://raw.githubusercontent.com/dnouri/nolearn/master/requirements.txt
 sudo pip install nolearn==0.5b1
 ```
-
-預設是使用CPU，若要使用GPU，請在HOME底下新增`.theanorc`檔案:[[1]] [theano-config]
+預設是使用CPU執行，若要使用GPU，請新增`~/.theanorc`:[[1]] [theano-config]
 ```
 [global]
 mode=FAST_RUN
