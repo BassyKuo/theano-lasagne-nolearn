@@ -9,6 +9,6 @@
    $ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
    $ sudo pip install scipy
    ```
-   若有卡住不動的情形，請努力等待，它會成功的
+   若有卡住不動的情形出現不是失敗，請努力等待，它會成功的
 3. **安裝時顯示"Could not find a tag or branch '8f4f9b2'"：**系統會自動安裝相近的版本，例如：**Lasagne 0.2.dev1**.
 
