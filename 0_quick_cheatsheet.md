@@ -13,7 +13,7 @@ if [ $? -eq 100 ]; then
   sudo mv /var/cache/apt/archives/lock /var/cache/apt/archives/lock_bak
   sudo apt-get install -y python-numpy
 fi
-sudo apt-get install -y cython python-scipy python-dev python-pip python-nose g++ libopenblas-dev git libblas-dev liblapack-dev libatlas-base-dev gfortran python-matplotlib ipython ipython-notebook python-pandas python-sympy
+sudo apt-get install -y cython python-matplotlib ipython ipython-notebook python-pandas python-sympy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git libblas-dev liblapack-dev libatlas-base-dev gfortran 
 
 ### Install Theano, Lasagne, Nolearn ###
 # If you want to install local packages, please use `virtualenv` or use `pip install --user`
