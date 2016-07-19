@@ -20,7 +20,7 @@ $ sudo apt-get install python-pip
 
 ### Theano安裝[[4]] [theano-install]
 ```
-$ sudo pip install Theano
+$ sudo pip install theano
 ```
 
 ### Lasagne安裝[[5]] [lasagne-install]
