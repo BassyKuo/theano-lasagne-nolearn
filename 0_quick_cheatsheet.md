@@ -27,7 +27,7 @@ mode=FAST_RUN
 device=gpu
 floatX=float32
 ```
-確認是否有設定成功，可執行`check_gpu.py`: <a href="#ref2"><sup>[2]</sup>
+確認是否有設定成功，可執行`check_gpu.py`: <a href="#ref2"><sup style="font-size:12px;">[2]</sup></a>
 ```python
 # Filename: check_gpu.py
 from theano import function, config, shared, sandbox
