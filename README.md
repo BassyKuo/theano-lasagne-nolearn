@@ -27,7 +27,7 @@ mode=FAST_RUN
 device=gpu
 floatX=float32
 ```
-確認是否有設定成功，可執行`check_gpu.py`: <a href="#ref2">[2]</a>
+確認是否有設定成功，可執行`check_gpu.py`: [[2]] [ref2]
 ```python
 # Filename: check_gpu.py
 from theano import function, config, shared, sandbox
@@ -54,9 +54,9 @@ else:
     print('Used the gpu')
 ```
 ---
-
+[ref2]: .#ref2
 <a name="ref1">[1]</a> 
 http://deeplearning.net/software/theano/library/config.html#config.device
 
-[2]
+<a name="ref2">[2]</a>
 http://deeplearning.net/software/theano/tutorial/using_gpu.html#testing-theano-with-gpu
