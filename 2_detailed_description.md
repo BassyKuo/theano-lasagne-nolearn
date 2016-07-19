@@ -18,18 +18,18 @@ $ sudo apt-get intsall python-matplotlib ipython ipython-notebook python-pandas 
 $ sudo apt-get install python-pip
 ```
 
-### Theano安裝[[4]] [ref4]
+### Theano安裝<a href="#ref4">[4]</a>
 ```
 $ sudo pip install theano
 ```
 
-### Lasagne安裝[[5]](ref5)
+### Lasagne安裝<a href="#ref5">[5]</a>
 ```
 $ sudo pip intsall lasagne
 ```
 
 ### Nolearn安裝
-Nolearn有許多相依套件必須先安裝或版本升級，首先先建立`Requires.txt`:[[6]](ref6)
+Nolearn有許多相依套件必須先安裝或版本升級，首先先建立`Requires.txt`:<a href="#ref6">[6]</a>
 ```bash
 numpy==1.10.4
 scipy==0.16.1
@@ -43,12 +43,11 @@ tabulate==0.7.5
 ```
 $ sudo pip install -r Requires.txt
 ```
-最後安裝Nolearn 0.5b1版本:[[7]](ref7)
+最後安裝Nolearn 0.5b1版本:<a href="#ref7">[7]</a>
 ```
 $ sudo pip install nolearn==0.5b1
 ```
 ---
-[ref4]: #ref4
 [scipy]: https://www.scipy.org/install.html
 [theano-install]: http://deeplearning.net/software/theano/install_ubuntu.html#install-ubuntu
 [lasagne-install]: http://lasagne.readthedocs.io/en/latest/user/installation.html
@@ -57,7 +56,7 @@ $ sudo pip install nolearn==0.5b1
 
 <a id="ref3">[3]</a> https://www.scipy.org/install.html
 
-<a name='ref4'>[4]</a> [Easy Installation of an Optimized Theano on Current Ubuntu](http://deeplearning.net/software/theano/install_ubuntu.html#install-ubuntu)
+<a id='ref4'>[4]</a> [Easy Installation of an Optimized Theano on Current Ubuntu](http://deeplearning.net/software/theano/install_ubuntu.html#install-ubuntu)
 
 <a id='ref5'>[5]</a> http://lasagne.readthedocs.io/en/latest/user/installation.html
 
