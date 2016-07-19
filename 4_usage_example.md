@@ -361,6 +361,7 @@ if __name__ == '__main__':
             kwargs['num_epochs'] = int(sys.argv[2])
 main(**kwargs)
 ```
+執行結果：
 
 ---
 <sup id="ref9">[9]</sup> https://github.com/Lasagne/Lasagne/blob/master/examples/mnist.py
