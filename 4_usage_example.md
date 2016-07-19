@@ -1,3 +1,3 @@
-# 4. Usage example
+# 4. Usage
 
-以下章節是MNIST的範例code與執行結果
+以下章節收錄MNIST的範例code與執行結果
