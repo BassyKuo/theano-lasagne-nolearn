@@ -1,5 +1,5 @@
 # 1. Introduction
-Theano, Lasagne, Nolearn是各自相依的python library，常用於deep learning。安裝時需要依照以下版本需求進行裝設以免相容失敗:
+Theano, Lasagne, Nolearn是各自相依的python library，用於deep learning。安裝時需要依照以下版本需求進行裝設以免相容失敗:
 
 **Theano requires:**
 
