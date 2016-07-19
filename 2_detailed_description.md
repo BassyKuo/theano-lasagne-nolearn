@@ -54,7 +54,7 @@ $ sudo pip install nolearn==0.5b1
 [nolearn-doc]: http://nolearn.readthedocs.io/en/latest/index.html
 [nolearn-0.5b1]: https://jessesw.com/Deep-Learning/
 
-<a name="ref3">[3]</a> https://www.scipy.org/install.html
+<a id="ref3">[3]</a> https://www.scipy.org/install.html
 
 <a name='ref4'>[4]</a> [Easy Installation of an Optimized Theano on Current Ubuntu](http://deeplearning.net/software/theano/install_ubuntu.html#install-ubuntu)
 
