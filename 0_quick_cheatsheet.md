@@ -1,7 +1,7 @@
 # 0. Quick cheatsheet
 
 執行此script以安裝theano, lasagne, nolearn:
-(測試安裝環境：**64-bit Ubuntu 14.04**)
+(測試安裝環境為：**64-bit Ubuntu 14.04**)
 ```bash
 #!/bin/bash
 # Easy installation on Ubuntu 14.04 server
