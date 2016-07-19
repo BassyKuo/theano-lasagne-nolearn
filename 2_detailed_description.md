@@ -47,6 +47,28 @@ $ sudo pip install -r Requires.txt
 ```
 $ sudo pip install nolearn==0.5b1
 ```
+### 測試
+可在python環境下import packages，若無出現error即為安裝成功:
+```
+$ python
+>> import numpy
+>> import scipy
+>> import theano
+>> import lasagne
+>> import nolearn
+>> 
+```
+也可利用`pip show`顯示版本資訊，例如:
+```
+$ pip show theano
+---
+Name: Theano
+Version: 0.8.0
+Location: /home/bass/.local/lib/python2.7/site-packages
+Requires: numpy, scipy, six
+
+```
+
 ---
 [scipy]: https://www.scipy.org/install.html
 [theano-install]: http://deeplearning.net/software/theano/install_ubuntu.html#install-ubuntu
