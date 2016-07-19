@@ -29,7 +29,7 @@ $ sudo pip intsall lasagne
 ```
 
 ### Nolearn安裝
-Nolearn有許多相依套件必須先安裝或版本升級，首先先建立`Reuires.txt`:[[3]] [nolearn-doc]
+Nolearn有許多相依套件必須先安裝或版本升級，首先先建立`Requires.txt`:[[3]] [nolearn-doc]
 ```bash
 numpy==1.10.4
 scipy==0.16.1
