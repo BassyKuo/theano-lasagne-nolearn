@@ -20,14 +20,14 @@ sudo apt-get install -y cython python-matplotlib ipython ipython-notebook python
 sudo pip install -r https://raw.githubusercontent.com/dnouri/nolearn/master/requirements.txt
 sudo pip install nolearn==0.5b1
 ```
-預設是使用CPU執行，若要使用GPU，請新增`~/.theanorc`:[[1]](ref1)
+預設是使用CPU執行，若要使用GPU，請新增`~/.theanorc`:[[1]](ref_1)
 ```
 [global]
 mode=FAST_RUN
 device=gpu
 floatX=float32
 ```
-確認是否有設定成功，可執行`check_gpu.py`: [[2]](ref2)
+確認是否有設定成功，可執行`check_gpu.py`: [[2]](ref_2)
 ```python
 # Filename: check_gpu.py
 from theano import function, config, shared, sandbox
@@ -55,8 +55,8 @@ else:
 ```
 ---
 
-<a id="ref1">[1]</a> 
+<a id="ref_1">[1]</a> 
 http://deeplearning.net/software/theano/library/config.html#config.device
 
-<a id="ref2">[2]</a>
+<a id="ref_2">[2]</a>
 http://deeplearning.net/software/theano/tutorial/using_gpu.html#testing-theano-with-gpu
