@@ -9,7 +9,7 @@ $ sudo apt-get python python-numpy python-scipy python-dev python-nose g++ git
 ```
 $ sudo apt-get install libopenblas-dev libblas-dev liblapack-dev libatlas-base-dev gfortran
 ```
-安裝python其他套件(scipy requires):<a href="#ref3"><sup>[3]</sup></a>
+安裝python其他套件(scipy requires):<a href="#ref3"><sup style="font-size:12px;">[3]</sup></a>
 ```
 $ sudo apt-get intsall python-matplotlib ipython ipython-notebook python-pandas python-sympy
 ```
@@ -18,18 +18,18 @@ $ sudo apt-get intsall python-matplotlib ipython ipython-notebook python-pandas 
 $ sudo apt-get install python-pip
 ```
 
-### Theano安裝<a href="#ref4"><sup>[4]</sup></a>
+### Theano安裝<a href="#ref4"><sup style="font-size:12px;">[4]</sup></a>
 ```
 $ sudo pip install theano
 ```
 
-### Lasagne安裝<a href="#ref5"><sup>[5]</sup></a>
+### Lasagne安裝<a href="#ref5"><sup style="font-size:12px;">[5]</sup></a>
 ```
 $ sudo pip intsall lasagne
 ```
 
 ### Nolearn安裝
-Nolearn有許多相依套件必須先安裝或版本升級，首先先建立`Requires.txt`:<a href="#ref6"><sup>[6]</sup></a>
+Nolearn有許多相依套件必須先安裝或版本升級，首先先建立`Requires.txt`:<a href="#ref6"><sup style="font-size:12px;">[6]</sup></a>
 ```bash
 numpy==1.10.4
 scipy==0.16.1
