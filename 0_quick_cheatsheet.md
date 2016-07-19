@@ -1,6 +1,7 @@
 # 0. Quick cheatsheet
 
-執行此script以安裝theano, lasagne, nolearn
+執行此script以安裝theano, lasagne, nolearn:
+(測試安裝環境：**64-bit Ubuntu 14.04**)
 ```bash
 #!/bin/bash
 # Easy installation on Ubuntu 14.04 server
@@ -26,7 +27,7 @@ mode=FAST_RUN
 device=gpu
 floatX=float32
 ```
-要確認是否有設定成功，可執行`check_gpu.py`: [[2]] [theano-gpu]
+確認是否有設定成功，可執行`check_gpu.py`: [[2]] [theano-gpu]
 ```python
 # Filename: check_gpu.py
 from theano import function, config, shared, sandbox
