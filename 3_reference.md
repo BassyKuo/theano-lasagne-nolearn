@@ -1,4 +1,4 @@
-# 3.Reference
+# 4. References
 
 ## Theano
 1. [Theano website](http://deeplearning.net/software/theano/)
