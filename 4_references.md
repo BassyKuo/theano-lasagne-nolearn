@@ -20,3 +20,11 @@
 2. [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/)
 3. [Numpy GitHub](https://github.com/numpy/numpy)
 4. [Scipy GitHub](https://github.com/scipy/scipy/)
+
+---
+
+## Usage
+1. [使用GPU和Theano加速深度学习](http://dataunion.org/20365.html)
+2. [用Lasagne来实现MLP，测试mnist](http://www.voidcn.com/blog/taneijia/article/p-4394548.html)
+2. [基於python的實戰案例講解](https://read01.com/oyoE4.html)
+3. 
