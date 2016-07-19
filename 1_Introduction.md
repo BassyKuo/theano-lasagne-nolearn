@@ -22,3 +22,5 @@ Theano, Lasagne, Nolearn是各自相依的python libaray，安裝時需要依照
 * joblib-0.9.3
 * scikit-learn-0.17
 * tabulate-0.7.5
+
+
