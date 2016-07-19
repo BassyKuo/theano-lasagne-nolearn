@@ -5,4 +5,5 @@
 * [2.Detailed description](2_detailed_description.md)
 * [3.Problems](3_problems.md)
 * [3.Reference](3_reference.md)
+* 0.Quick cheatsheet
 
