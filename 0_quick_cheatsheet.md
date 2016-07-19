@@ -1,4 +1,4 @@
-# 0.Quick cheatsheet
+# 0. Quick cheatsheet
 
 執行此script以安裝theano, lasagne, nolearn
 ```bash
