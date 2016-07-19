@@ -51,12 +51,12 @@ $ sudo pip install nolearn==0.5b1
 可在python環境下import packages，若無出現error即為安裝成功:
 ```
 $ python
->> import numpy
->> import scipy
->> import theano
->> import lasagne
->> import nolearn
->> 
+>>> import numpy
+>>> import scipy
+>>> import theano
+>>> import lasagne
+>>> import nolearn
+>>> 
 ```
 也可利用`pip show`顯示版本資訊，例如:
 ```
