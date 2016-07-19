@@ -9,7 +9,7 @@ $ sudo apt-get python python-numpy python-scipy python-dev python-nose g++ git
 ```
 $ sudo apt-get install libopenblas-dev libblas-dev liblapack-dev libatlas-base-dev gfortran
 ```
-安裝python其他套件(scipy requires):[[3]](ref3)
+安裝python其他套件(scipy requires):[[3]](3)
 ```
 $ sudo apt-get intsall python-matplotlib ipython ipython-notebook python-pandas python-sympy
 ```
@@ -54,7 +54,7 @@ $ sudo pip install nolearn==0.5b1
 [nolearn-doc]: http://nolearn.readthedocs.io/en/latest/index.html
 [nolearn-0.5b1]: https://jessesw.com/Deep-Learning/
 
-<a id ='ref3'>[3]</a> https://www.scipy.org/install.html
+<a id ='3'>[3]</a> https://www.scipy.org/install.html
 
 <a id='ref4'>[4]</a> [Easy Installation of an Optimized Theano on Current Ubuntu](http://deeplearning.net/software/theano/install_ubuntu.html#install-ubuntu)
 
