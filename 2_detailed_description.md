@@ -29,7 +29,7 @@ $ sudo pip intsall lasagne
 ```
 
 ### Nolearn安裝
-Nolearn有許多相依套件必須先安裝或版本升級，首先先建立`Reuires.txt`:[[3]][]
+Nolearn有許多相依套件必須先安裝或版本升級，首先先建立`Reuires.txt`:[[3]] [nolearn-doc]
 ```bash
 numpy==1.10.4
 scipy==0.16.1
@@ -43,9 +43,14 @@ tabulate==0.7.5
 ```
 $ sudo pip install -r Requires.txt
 ```
-最後安裝Nolearn 0.5b1版本:[[4]][]
+最後安裝Nolearn 0.5b1版本:[[4]] [nolearn-0.5b1]
 ```
 $ sudo pip install nolearn==0.5b1
 ```
 ---
-[3]: http://nolearn.readthedocs.io/en/latest/index.html
+[nolearn-doc]: http://nolearn.readthedocs.io/en/latest/index.html
+[nolearn-0.5b1]: https://jessesw.com/Deep-Learning/
+
+[3] http://nolearn.readthedocs.io/en/latest/index.html
+
+[4] [An Introduction to Deep Learning using nolearn](https://jessesw.com/Deep-Learning/)
