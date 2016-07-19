@@ -43,7 +43,7 @@ tabulate==0.7.5
 ```
 $ sudo pip install -r Requires.txt
 ```
-最後安裝Nolearn 0.5b1版本:<a href="#ref7"><sup>[7]</sup></a>
+最後安裝Nolearn 0.5b1版本<a href="#ref7"><sup style="font-size:12px;">[7]</sup></a>:
 ```
 $ sudo pip install nolearn==0.5b1
 ```
