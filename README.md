@@ -21,7 +21,6 @@ sudo pip install -r https://raw.githubusercontent.com/dnouri/nolearn/master/requ
 sudo pip install nolearn==0.5b1
 ```
 預設是使用CPU執行，若要使用GPU，請新增`~/.theanorc`:<a href="#ref1">[1]</a>
-[[1]] [theano-config]
 ```
 [global]
 mode=FAST_RUN
@@ -29,7 +28,7 @@ device=gpu
 floatX=float32
 ```
 確認是否有設定成功，可執行`check_gpu.py`: <a href="#ref2">[2]</a>
-[[2]] [theano-gpu]
+[[2]] [#ref2]
 ```python
 # Filename: check_gpu.py
 from theano import function, config, shared, sandbox
@@ -56,8 +55,6 @@ else:
     print('Used the gpu')
 ```
 ---
-[theano-config]: http://deeplearning.net/software/theano/library/config.html#config.device
-[theano-gpu]: http://deeplearning.net/software/theano/tutorial/using_gpu.html#testing-theano-with-gpu
 
 <a name="ref1">[1]</a> http://deeplearning.net/software/theano/library/config.html#config.device
 
