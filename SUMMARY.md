@@ -7,6 +7,6 @@
 * [3.Problems](3_problems.md)
 * [4.Usage](4_usage_example.md)
    * [4.1 Example#1](41.md)
-   * 4.2 Example#2
+   * [4.2 Example#2](42.md)
 * [5.References](4_references.md)
 
