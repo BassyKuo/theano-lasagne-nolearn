@@ -20,6 +20,7 @@
 2. [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/)
 3. [Numpy GitHub](https://github.com/numpy/numpy)
 4. [Scipy GitHub](https://github.com/scipy/scipy/)
+5. [Best python library for neural networks](http://datascience.stackexchange.com/questions/694/best-python-library-for-neural-networks)
 
 ---
 
