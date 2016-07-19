@@ -20,7 +20,7 @@ sudo apt-get install -y cython python-matplotlib ipython ipython-notebook python
 sudo pip install -r https://raw.githubusercontent.com/dnouri/nolearn/master/requirements.txt
 sudo pip install nolearn==0.5b1
 ```
-預設是使用CPU執行，若要使用GPU，請新增`~/.theanorc`:[[1]](#ref1)
+預設是使用CPU執行，若要使用GPU，請新增`~/.theanorc`:<sup style="font-size:12px;">[[1]](#ref1)</sup>
 ```
 [global]
 mode=FAST_RUN
