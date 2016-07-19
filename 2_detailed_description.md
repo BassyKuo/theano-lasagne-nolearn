@@ -48,6 +48,7 @@ $ sudo pip install -r Requires.txt
 $ sudo pip install nolearn==0.5b1
 ```
 ---
+[ref4]: #ref4
 [scipy]: https://www.scipy.org/install.html
 [theano-install]: http://deeplearning.net/software/theano/install_ubuntu.html#install-ubuntu
 [lasagne-install]: http://lasagne.readthedocs.io/en/latest/user/installation.html
