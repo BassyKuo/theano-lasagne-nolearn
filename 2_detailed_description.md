@@ -18,7 +18,7 @@ $ sudo apt-get intsall python-matplotlib ipython ipython-notebook python-pandas 
 $ sudo apt-get install python-pip
 ```
 
-### Theano安裝[[4]](ref4)
+### Theano安裝[[4]] [ref4]
 ```
 $ sudo pip install theano
 ```
@@ -56,7 +56,7 @@ $ sudo pip install nolearn==0.5b1
 
 <a id ='3'>[3]</a> https://www.scipy.org/install.html
 
-<a id='ref4'>[4]</a> [Easy Installation of an Optimized Theano on Current Ubuntu](http://deeplearning.net/software/theano/install_ubuntu.html#install-ubuntu)
+<a name='ref4'>[4]</a> [Easy Installation of an Optimized Theano on Current Ubuntu](http://deeplearning.net/software/theano/install_ubuntu.html#install-ubuntu)
 
 <a id='ref5'>[5]</a> http://lasagne.readthedocs.io/en/latest/user/installation.html
 
