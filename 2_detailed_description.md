@@ -43,9 +43,9 @@ tabulate==0.7.5
 ```
 $ sudo pip install -r Requires.txt
 ```
-最後安裝Nolearn 0.5b1版本<a href="#ref7"><sup style="font-size:12px;">[7]</sup></a>:
+最後安裝Nolearn 0.7版本<a href="#ref7"><sup style="font-size:12px;">[7]</sup></a>:
 ```
-$ sudo pip install nolearn==0.5b1
+$ sudo pip install git+https://github.com/dnouri/nolearn.git@master#egg=nolearn==0.7.git
 ```
 ### 測試
 可在python環境下import packages，若無出現error即為安裝成功:
@@ -84,4 +84,4 @@ Requires: numpy, scipy, six
 
 <sup id='ref6'>[6]</sup> http://nolearn.readthedocs.io/en/latest/index.html
 
-<sup id='ref7'>[7]</sup> [An Introduction to Deep Learning using nolearn](https://jessesw.com/Deep-Learning/)
+<sup id='ref7'>[7]</sup> https://pythonhosted.org/nolearn/
