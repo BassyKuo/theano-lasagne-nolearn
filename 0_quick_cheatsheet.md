@@ -18,7 +18,7 @@ sudo apt-get install -y cython python-matplotlib ipython ipython-notebook python
 ### Install Theano, Lasagne, Nolearn ###
 # If you want to install local packages, please use `virtualenv` or use `pip install --user`
 sudo pip install -r https://raw.githubusercontent.com/dnouri/nolearn/master/requirements.txt
-sudo pip install nolearn==0.5b1
+sudo pip install git+https://github.com/dnouri/nolearn.git@master#egg=nolearn==0.7.git
 ```
 預設是使用CPU執行，若要使用GPU，請新增`~/.theanorc`:<sup style="font-size:12px;">[[1]](#ref1)</sup>
 ```
